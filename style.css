@@ -1,0 +1,13 @@
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: whitney, Arial, Helvetica, sans-serif;
+}
+.debug{
+    border: 2px solid red;
+}
