@@ -25,16 +25,19 @@ body {
 
 header {
     background-image: url(img/jumbo.png);
+    height: 600px;
     background-size: cover;
     /* background-repeat: no-repeat;*/
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20 px 10px;
 }
 .row {
     flex-direction: row-reverse;
@@ -42,6 +45,12 @@ header {
 
 .d-flex {
     display: flex;
+}
+.space-btw {
+    justify-content: space-between;
+}
+.alling-center {
+    align-items: center;
 }
 
 .place {
